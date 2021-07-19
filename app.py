@@ -2,8 +2,6 @@ from flask import Flask, request, session, render_template
 from nerobot import ask, append_interaction_to_chat_log, classify_response
 
 app = Flask(__name__)
-# if for some reason your conversation with the bot gets weird, change the secret key 
-app.config['SECRET_KEY'] = '89djhff9lhkd93'
 
 @app.route('/nero', methods=['POST'])
 def nero():

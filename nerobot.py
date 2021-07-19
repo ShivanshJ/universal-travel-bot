@@ -18,20 +18,17 @@ def ask(question, chat_log=None):
     if chat_log is None:
       chat_log = session_prompt
     prompt_text = f'{chat_log}{formatted_ques}'
-    # response = openai.Completion.create(
-    #   engine="davinci",
-    #   prompt=prompt_text,
-    #   temperature=0.45,
-    #   max_tokens=150,
-    #   top_p=1,
-    #   frequency_penalty=0,
-    #   presence_penalty=0.3,
-    #   stop=["##"],
-    # )
-    # story = response['choices'][0]['text']
-    x = int(random.random()*100)
-    print (x)
-    story = ( 'Yes' if x%2==1 else 'No' ) + '\nNero: I say hi /hello. Is anybody in there, now? Just nod if you can hear me. Is there anyone at home?'
+    response = openai.Completion.create(
+      engine="davinci",
+      prompt=prompt_text,
+      temperature=0.45,
+      max_tokens=150,
+      top_p=1,
+      frequency_penalty=0,
+      presence_penalty=0.3,
+      stop=["##"],
+    )
+    story = response['choices'][0]['text']
     return story
 
 def append_interaction_to_chat_log(question, answer, chat_log=None):
