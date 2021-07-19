@@ -1,0 +1,47 @@
+<html><head>  
+  <title>Nero Writer Online</title>  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">   
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="description" content="Online distraction-free text editor. Just Write.">  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<link href= "{{ url_for('static',filename='css/style.css') }}" rel="stylesheet">
+<link href= "{{ url_for('static',filename='css/typing.css') }}" rel="stylesheet">
+<script src="/static/editor.js"></script> 
+<script src="/static/nero.js" type="module"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>  
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<div id="_bsa_srv-CE7DL2JN_0"></div></head>  
+<body spellcheck="false" data-gr-ext-installed="" style="border-width: 0px;">
+
+  
+  <div id="wrapper" style="top: 0px;">    
+    <div id="main" contenteditable="true" spellcheck="false" class="droid" 
+      style="direction: ltr; padding-top: 221px; max-width: 750px; padding-bottom: 135px;"
+      data-placeholder="Ask Nero for a travel recommendation & hit Enter" autofocus></div>
+    <div id="breaker" style="height: 5px"><hr></div>
+    <div id="nero-answer" contenteditable="false" spellcheck="false" class="droid" 
+      style="direction: ltr; padding-top: 50px; max-width: 750px; padding-bottom: 50px;">
+        <div class="typing-animation">
+          <span id="quote"></span>
+        </div>
+    </div>            
+  </div> 
+  <div id="calmlylogo" style="cursor: pointer; opacity: 1;">
+    <img src="/static/expedia-logo.png" alt="calmly">
+  </div>     
+  <div id="topshadow" style="top: -15px;">
+  </div>  
+  <div id="bottomshadow">
+  </div>  
+       
+
+</body></html>
