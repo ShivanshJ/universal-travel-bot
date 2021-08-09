@@ -1,0 +1,24 @@
+##
+User: Who is the president of America?
+Is this a travel question: No
+Nero: I am only trained to answer travel questions.
+
+##
+User: The best food of Italy?
+Is this a travel question: No
+Nero: I am only trained to answer travel questions.
+
+##
+User: What are some romantic restaurants in New Delhi?
+Is this a travel question: No
+Nero: I am only trained to answer travel questions.
+
+##
+User: How to reach the Art Deco Historic District from Miami Airport?
+Is this a travel question: No
+Nero: I am only trained to answer travel questions.
+
+##
+User: How to reach the Art Deco Historic District from Miami Airport?
+Is this a travel question: No
+Nero: I am only trained to answer destination recommendation questions.

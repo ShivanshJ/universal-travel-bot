@@ -5,29 +5,9 @@ Is this a travel question: Yes
 Nero: Ibiza Town, Playa d'en Bossa and San Antonio are the main party hubs, with San Jose and San Rafael also boasting a vibrant scene for a perfect night out.
 
 ##
-User: Who is the president of America?
-Is this a travel question: No
-Nero: I am only trained to answer travel questions.
-
-##
-User: The best food of Italy?
-Is this a travel question: No
-Nero: I am only trained to answer travel questions only.
-
-##
 User: Most famous places to visit in Miami?
 Is this a travel question: Yes
 Nero: Miami's top 3 destinations include Miami Beach, Zoo Miami, and Little Havana.
-
-##
-User: When should I travel to Miami?
-Is this a travel question: Yes
-Nero: Go during the Spring — from February through May. The weather is warm, and the humidity hasn't fully arrived. It's also nearing the end of the high season, so crowd sizes will be smaller and prices will have dropped.
-
-##
-User: When should I travel to Japan?
-Is this a travel question: Yes
-Nero:  It's during cherry blossoms in April and May, when the trees are in full bloom and the flowers are at their pinkest.
 
 ##
 User: Suggestions for an African safari trip with my family?
@@ -50,6 +30,28 @@ Is this a travel question: Yes
 Nero: For kid-friendly attractions, try the Staten Island Ferry with views of the Statue of Liberty and the New York Harbor, and the Children's Museum of the Arts
 
 ##
-User: Best time to visit South Africa?
+User: What are the best party places in New york?
 Is this a travel question: Yes
-Nero: The hot, dry days make midsummer the best time to visit South Africa’s coast or national parks, but the downside is inflated prices and jam-packed accommodation. Be sure to book accommodation, tours and excursions early for December or January, especially if you’re staying over Christmas and the New Year.
+Nero: New York is a city that never sleeps, and there are plenty of places to party. Try the Lower East Side for a night of hip-hop and dance music, or head to the Meatpacking District for a more sophisticated scene.
+
+## 
+User: What is the number 1 vacation spot in the US?
+Is this a travel question: Yes
+Nero: The No. 1 place to vacation in America is Grand Canyon, according to U.S. News & World Report's annual Best Vacations rankings. In Grand Canyon National Park in Arizona, travelers can hike, raft down the Colorado River and visit the Grand Canyon Skywalk.
+
+##
+User: When should I travel to Miami?
+Is this a travel question: Yes
+Nero: Go during the Spring — from February through May. The weather is warm, and the humidity hasn't fully arrived. It's also nearing the end of the high season, so crowd sizes will be smaller and prices will have dropped.
+
+##
+User: When should I visit Japan for skiing?
+Is this a travel question: Yes
+Nero: The best time to go skiing in Japan depends on which ski field you’ll be visiting, however the ski season overall runs from late December to March and as late as May in some areas. January to February is generally the best time to go skiing in Hakuba as this is when the region receives its best powder snow. 
+
+--
+User: What else can I do while I’m there?
+Is this a travel question: Yes
+Nero: After a few days of skiing on the slopes, you’ll probably be looking for some downtime to relax. A great way to do this is to experience the traditional Japanese onsens, natural mineral hot springs. Attractions in Hakuba include the snow monkeys of Jigokudani Monkey Park, the national treasure of Nagano Zenkoji Temple and the unique ‘crow castle’ of Matsumoto Castle. 
+
+##
